@@ -72,10 +72,10 @@ public class SafeFrame extends Frame implements ActionListener, Context {
     }
 
     public void callSecurityCenter(String msg) {
-        textScreen.append("call! " + msg + "￥n");
+        textScreen.append("call! " + msg + "\n");
     }
 
     public void recordLog(String msg) {
-        textScreen.append("record... " + msg + "￥n");
+        textScreen.append("record... " + msg + "\n");
     }
 }
